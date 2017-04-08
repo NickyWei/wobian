@@ -1,0 +1,16 @@
+
+<!--index.wxml-->
+<view class="container">
+  <!-- map.wxml -->
+  <map class="mainMap" id="map" 
+       longitude="{{longitude}}" 
+       latitude="{{latitude}}" 
+       scale="13"
+       controls = "{{controls}}" 
+       circles = "{{circles}}"
+       markers = "{{markers}}"
+       bindcontroltap = "controltap"
+       bindmarkertap = "marktap"
+       show-location></map>
+      
+</view>
